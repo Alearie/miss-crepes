@@ -1,14 +1,36 @@
 import "./App.css";
+import logo from "./assets/images/Details/logo.png";
+import C1 from "./assets/images/C1.png";
+import C4 from "./assets/images/C4.png";
+import C3 from "./assets/images/C3.png";
+import C2 from "./assets/images/C2.png";
+import MAC from "./assets/images/Crepe Rolls/Mango-and-Cream-A.png";
+import SAC from "./assets/images/Crepe Rolls/Strawberry-and-Cream.png";
+import C from "./assets/images/Crepe Rolls/Chocolate.png";
+import S from "./assets/images/Crepe Rolls/S_mores.png";
+import BN from "./assets/images/Crepe Rolls/Banana-Nutella.png";
+import SN from "./assets/images/Crepe Rolls/Strawberry-Nutella.png";
+import CC from "./assets/images/Crepe Rolls/Coffee-Crumble.png";
+import M from "./assets/images/Crepe Rolls/Matcha-A.png";
+import RR from "./assets/images/Crepe Rolls/Rocky-Road.png";
+import UAC from "./assets/images/Crepe Rolls/Ube-Cheese.png";
+import RV from "./assets/images/Crepe Rolls/Red-Velvet.png";
+import T from "./assets/images/Crepe Rolls/Tiramisu.png";
+import OV from "./assets/images/Crepe Rolls/Oreo-Vanilla.png";
+import OS from "./assets/images/Crepe Rolls/Oreo-Strawberry.png";
+import OM from "./assets/images/Crepe Rolls/Oreo-Matcha.png";
+import OC from "./assets/images/Crepe Rolls/Oreo-Chocolate.png";
+import MCC from "./assets/images/Crepe Rolls/Mango-Creamcheese-B.png";
+import SCC from "./assets/images/Crepe Rolls/Strawberry-Creamcheese.png";
+import BCC from "./assets/images/Crepe Rolls/Blueberry-Creamcheese-B.png";
+import OCC from "./assets/images/Crepe Rolls/Oreo-Creamcheese.png";
+import CEO from "./assets/images/marielle.png";
 
 function App() {
   return (
     <>
       <nav>
-        <img
-          src="/src/assets/images/Details/logo.png"
-          className="logo "
-          alt="logo"
-        />
+        <img src={logo} className="logo " alt="logo" />
         <ul>
           <li>
             <a href="#Home"> Home </a>
@@ -36,21 +58,9 @@ function App() {
             <a href="#Menu"> Explore more </a>
           </div>
           <div className="home-crepes">
-            <img
-              src="src/assets/images/C1.png"
-              className="crepe-1"
-              alt="Crepe1"
-            />
-            <img
-              src="src/assets/images/C4.png"
-              className="crepe-2"
-              alt="Crepe4"
-            />
-            <img
-              src="src/assets/images/C3.png"
-              className="crepe-3"
-              alt="Crepe3"
-            />
+            <img src={C1} className="crepe-1" alt="Crepe1" />
+            <img src={C4} className="crepe-2" alt="Crepe4" />
+            <img src={C3} className="crepe-3" alt="Crepe3" />
           </div>
         </div>
       </div>
@@ -62,7 +72,7 @@ function App() {
 
             <div className="menu-data">
               <div className="crepes">
-                <img src="src/assets/images/C1.png" alt="crepe-1" />
+                <img src={C1} alt="crepe-1" />
                 <p>
                   PEARL MILK TEA FILLED CREPE <br /> WITH CARAMEL SYRUP
                 </p>
@@ -72,7 +82,7 @@ function App() {
               </div>
 
               <div className="crepes">
-                <img src="src/assets/images/C2.png" alt="crepe-2" />
+                <img src={C2} alt="crepe-2" />
                 <p>
                   BANANA FILLED CREPE <br /> WITH CHOCOLATE SYRUP
                 </p>
@@ -82,7 +92,7 @@ function App() {
               </div>
 
               <div className="crepes">
-                <img src="src/assets/images/C4.png" alt="crepe-4" />
+                <img src={C4} alt="crepe-4" />
                 <p>
                   STRAWBERRY FILLED CREPE <br /> WITH CHOCOLATE SYRUP
                 </p>
@@ -92,7 +102,7 @@ function App() {
               </div>
 
               <div className="crepes">
-                <img src="src/assets/images/C3.png" alt="crepe-3" />
+                <img src={C3} alt="crepe-3" />
                 <p>
                   MANGO FILLED CREPE <br /> WITH CHOCOLATE SYRUP
                 </p>
@@ -111,50 +121,32 @@ function App() {
 
         <div className="menu-data">
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Mango-and-Cream-A.png"
-              alt="mango-and-cream"
-            />
+            <img src={MAC} alt="mango-and-cream" />
             <p>MANGO AND CREAM </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Strawberry-and-Cream.png"
-              alt="strawberry-and-cream"
-            />
+            <img src={SAC} alt="strawberry-and-cream" />
             <p>STRAWBERRY AND CREAM</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Chocolate.png"
-              alt="chocolate"
-            />
+            <img src={C} alt="chocolate" />
             <p>CHOCOLATE</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/S_mores.png"
-              alt="s'mores"
-            />
+            <img src={S} alt="s'mores" />
             <p>SMORES</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Banana-Nutella.png"
-              alt="banana-nutella"
-            />
+            <img src={BN} alt="banana-nutella" />
             <p>BANANA NUTELLA</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Strawberry-Nutella.png"
-              alt="strawberry-nutella"
-            />
+            <img src={SN} alt="strawberry-nutella" />
             <p>STRAWBERRY NUTELLA</p>
           </div>
         </div>
@@ -165,50 +157,32 @@ function App() {
 
         <div className="menu-data">
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Coffee-Crumble.png"
-              alt="coffee-crumble"
-            />
+            <img src={CC} alt="coffee-crumble" />
             <p>COFFEE CRUMBLE </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Matcha-A.png"
-              alt="matcha"
-            />
+            <img src={M} alt="matcha" />
             <p>MATCHA</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Rocky-Road.png"
-              alt="rocky-road"
-            />
+            <img src={RR} alt="rocky-road" />
             <p>ROCKY ROAD</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Ube-Cheese.png"
-              alt="ube-cheese"
-            />
+            <img src={UAC} alt="ube-cheese" />
             <p>UBE AND CHEESE</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Red-Velvet.png"
-              alt="red-velvet"
-            />
+            <img src={RV} alt="red-velvet" />
             <p>RED VELVET</p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Tiramisu.png"
-              alt="tiramisu"
-            />
+            <img src={T} alt="tiramisu" />
             <p>TIRAMISU</p>
           </div>
         </div>
@@ -219,34 +193,22 @@ function App() {
 
         <div className="menu-data">
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Oreo-Vanilla.png"
-              alt="oreo-vanilla"
-            />
+            <img src={OV} alt="oreo-vanilla" />
             <p>OREO VANILLA </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Oreo-Strawberry.png"
-              alt="oreo-strawberry"
-            />
+            <img src={OS} alt="oreo-strawberry" />
             <p>OREO STRAWBERRY </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Oreo-Matcha.png"
-              alt="oreo-matcha"
-            />
+            <img src={OM} alt="oreo-matcha" />
             <p>OREO MATCHA </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Oreo-Chocolate.png"
-              alt="oreo-chocolate"
-            />
+            <img src={OC} alt="oreo-chocolate" />
             <p>OREO CHOCOLATE </p>
           </div>
         </div>
@@ -261,34 +223,22 @@ function App() {
 
         <div className="menu-data">
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Mango-Creamcheese-B.png"
-              alt="mango-creamcheese"
-            />
+            <img src={MCC} alt="mango-creamcheese" />
             <p>MANGO CREAM CHEESE </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Strawberry-Creamcheese.png"
-              alt="strawberry-creamcheese"
-            />
+            <img src={SCC} alt="strawberry-creamcheese" />
             <p>STRAWBERRY CREAM CHEESE </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Blueberry-Creamcheese-B.png"
-              alt="blueberry-creamcheese"
-            />
+            <img src={BCC} alt="blueberry-creamcheese" />
             <p>BLUEBERRY CREAM CHEESE </p>
           </div>
 
           <div className="crepe-rolls">
-            <img
-              src="src/assets/images/Crepe Rolls/Oreo-Creamcheese.png"
-              alt="oreo-creamcheese"
-            />
+            <img src={OCC} alt="oreo-creamcheese" />
             <p>OREO CREAM CHEESE </p>
           </div>
         </div>
@@ -312,7 +262,7 @@ function App() {
           </div>
 
           <div className="about-pic">
-            <img src="src/assets/images/marielle.png" alt="marielle" />
+            <img src={CEO} alt="marielle" />
             <h3> Marielle </h3>
             <h4> Owner of Miss Crepes</h4>
           </div>
