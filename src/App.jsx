@@ -293,6 +293,50 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div id="About">
+        <div className="about">
+          <div className="about-text">
+            <h1> About Us </h1>
+            <p>
+              Welcome to our crepe business, where we specialize in creating
+              delicious and unique crepes using only the freshest and highest
+              quality ingredients. Our crepes are carefully crafted to satisfy
+              all tastes and preferences, with a wide range of flavors
+              available. Our crepe provides a quick and delicious snack for
+              anyone on the go. We pride ourselves on providing excellent
+              customer service and ensuring that every customer has a positive
+              experience. We invite you to come and experience the unique and
+              delicious crepes that our business has to offer.
+            </p>
+          </div>
+
+          <div className="about-pic">
+            <img src="src/assets/images/marielle.png" alt="marielle" />
+            <h3> Marielle </h3>
+            <h4> Owner of Miss Crepes</h4>
+          </div>
+        </div>
+      </div>
+      <div id="Contact">
+        <div className="container-contact">
+          <div className="contact">
+            <a
+              href="https://www.facebook.com/misscrepes2020"
+              rel="noreferrer"
+              target="_blank"
+              className="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/misscrepes2020/"
+              rel="noreferrer"
+              target="_blank"
+              className="fa fa-instagram"
+            ></a>
+            <h1> &copy;2020 | MISS CREPES</h1>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

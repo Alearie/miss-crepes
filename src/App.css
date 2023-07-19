@@ -139,3 +139,76 @@ nav ul li a:hover {
   font-family: 'Lilita One', cursive;
   font-size: 18px;
 }
+.about {
+  display: flex;
+  height: 100vh;
+}
+.about-text {
+  padding: 130px;
+}
+.about h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 100px;
+  color: #F8787D;
+}
+.about p {
+  font-family: 'Atma', cursive;
+  font-size: 30px;
+  font-weight:600;
+  color: #533529;
+  text-align: justify;
+}
+.about-pic {
+  padding-top: 170px;
+  padding-right: 50px;
+}
+.about-pic img {
+  border-radius: 50%;
+  width: 450;
+  height: 450px;
+}
+.about-pic h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: 'Lilita One', cursive;
+  color: #533529;
+  font-weight: lighter;
+}
+.about-pic h4 {
+  text-align: center;
+  font-family: 'Atma', cursive;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #F8787D;
+}
+.container-contact {
+  padding-top: 100px;
+}
+.contact {
+  padding-top: 30px;
+  background-image: linear-gradient(to bottom right, #FFF1F1, #F8787D );
+  height: 90px;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.contact a {
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+}
+.contact h1 {
+  padding-top: 20px;
+  font-family: 'Lilita One', cursive;
+  font-size: 20px;
+  color: #F2F5F8 ;
+}
+.fa-facebook {
+  color: #533529    ;
+}
+.fa-instagram {
+  color: #533529   ;
+}
