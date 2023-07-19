@@ -40,3 +40,47 @@ nav ul li a:hover {
 .container-home {
   display: flex;
 }
+.home-text {
+  width: 100%;
+}
+.home-text h1 {
+  color: #533529;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  padding-top: 18%;
+  margin-left: 90px;
+}
+.home-text p {
+  color: #533529;
+  font-family: 'Atma', cursive;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+.home-text a {
+  background-color: #EACA81;
+  padding: 15px 15px;
+  margin: 50px 160px;
+  margin-left: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Lilita One', cursive;
+  font-weight: lighter;
+  color: #533529;
+  border-radius: 7px;
+}
+.home-crepes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.home-crepes img {
+ width: 70%;
+}
+.crepe-1 {
+  margin-right: 50%;
+}
+.crepe-3 {
+  margin-right: 50%;
+}
