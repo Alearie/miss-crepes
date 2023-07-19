@@ -84,3 +84,58 @@ nav ul li a:hover {
 .crepe-3 {
   margin-right: 50%;
 }
+.menu-row {
+  padding-top: 7%;
+  width: 100%;
+  height: 90vh;
+}
+.menu-column h1 {
+  text-align: center;
+  color: #F8787D;
+  font-family: 'Atma', cursive;
+  font-weight: bolder;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.menu-column h2 {
+  text-align: center;
+  color: #533529;
+  font-family: 'Lilita One', cursive;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
+  background-color: #EACA81;
+}
+.menu-data {
+  height: 440px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.crepes img {
+  width: 270px;
+  height: 270px;
+  padding-top: 25px;
+}
+.crepes {
+  background-color: #EACFB9;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 40px;
+}
+.crepes p {
+  color: #533529;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Lilita One', cursive;
+}
+.crepe-rolls img {
+  width: 230px;
+  height: 290px;
+}
+.crepe-rolls p {
+  color: #533529;
+  text-align: center;
+  font-family: 'Lilita One', cursive;
+  font-size: 18px;
+}
